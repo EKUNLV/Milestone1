@@ -4,7 +4,7 @@ var submit = document.getElementById('continueButton');
 var reset = document.getElementById('resetButton');
 var answer = '';
 //localStorage.setItem("deathCount", "0")
-//var deathCount = parseInt(localStorage.getItem("deathCount"))
+//var deathCount = parseInt(localStorage.getItem("deathCount"));
 
 var story_telling = {
   "start": { //beginning of the story
