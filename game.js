@@ -3,8 +3,8 @@ var form = document.getElementById('theAdventure');// get the element with match
 var submit = document.getElementById('continueButton');
 var reset = document.getElementById('resetButton');
 var answer = '';
-localStorage.setItem("deathCount", "0")
-var deathCount = parseInt(localStorage.getItem("deathCount"));
+//localStorage.setItem("deathCount", "0")
+//var deathCount = parseInt(localStorage.getItem("deathCount"))
 
 var story_telling = {
   "start": { //beginning of the story
@@ -93,7 +93,7 @@ submit.addEventListener('mouseup', function(){ //when a button on a pointing dev
   // Reset button
   function resetForm(){
       document.getElementById("theAdventure").reset();
-      localStorage.setItem("deathCount", deathCount)
+      //localStorage.setItem("deathCount", deathCount)
   }
   
   // Generate answers from story
@@ -109,7 +109,7 @@ submit.addEventListener('mouseup', function(){ //when a button on a pointing dev
   
     form.querySelector('p').innerHTML = current_story.question;//write questions to the p tag in the HTML
     form.querySelector('fieldset').innerHTML = text;//write answers to the fieldset 
-    form.querySelector('count').innerHTML = deathCount;//add field for deathcount
+    //form.querySelector('count').innerHTML = deathCount;//add field for deathcount
   }
   
   populateForm('start');//set the form at the beginning
