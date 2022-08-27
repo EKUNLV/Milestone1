@@ -41,7 +41,7 @@ var story_telling = {
   },
   // Winning path
   "3_a": {
-    "question": "You open the shed and try the key, UNLOCKED, you head inside and find a BMW M3 Matte Black and drive home to safety. THE END",
+    "question": "You open the shed and try the key, UNLOCKED, you head inside and find a BMW M3 Matte Black and drive home to safety. YOU WIN",
   },
   "3_b": {
     "question": "You attempt to climb the side of the mansion, SNAP!, the wood breaks and you fall to the ground. At first you seem fine but your chest becomes warm and wet. It seems you have landed on the debris from the house. YOU DIED ",
@@ -73,7 +73,7 @@ var story_telling = {
     
   },
   "3_e": {
-    "question": "You follow the traces of blood, you end up finding a dead body with car keys in his hand, you pick up the keys and walk a little further to find a BMW M3 Matte Black. You get in the car and drive home!",
+    "question": "You follow the traces of blood, you end up finding a dead body with car keys in his hand, you pick up the keys and walk a little further to find a BMW M3 Matte Black. You get in the car and drive home! YOU WIN",
     
 },
 
