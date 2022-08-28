@@ -4,7 +4,7 @@ var submit = document.getElementById('continueButton');
 var reset = document.getElementById('resetButton');
 var answer = '';
 //localStorage.setItem("deathCount", "0")
-//var deathCount = parseInt(localStorage.getItem("deathCount"))
+//var deathCount = parseInt(localStorage.getItem("deathCount"));
 
 var story_telling = {
   "start": { //beginning of the story
@@ -85,7 +85,6 @@ submit.addEventListener('mouseup', function(){ //when a button on a pointing dev
     if(answer) {
       story++;//increment or add 1 to
       populateForm(story + '_' + answer);//if a radio is checked populate our form with the answer
-      console.log("Story time!"); // Console log to make sure things are working
       //console.log(deathCount)
     }
   });
